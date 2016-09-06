@@ -5,3 +5,4 @@ test.js
 mock.crt
 .wercker/
 wercker.yml
+npm-debug.log
