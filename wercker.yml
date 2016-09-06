@@ -1,0 +1,17 @@
+box:
+  id: mhart/alpine-node:6.5
+  cmd: /bin/sh
+
+build:
+  steps:
+    - npm-install
+    - npm-test
+
+deploy:
+  steps:
+    - script:
+        name: add deploy token
+        code: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
+    - script:
+        name: publish to npm
+        code: 'npm publish . --access="${NPM_ACCESS:-restricted}"'

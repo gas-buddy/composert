@@ -1,0 +1,15 @@
+{
+  "name": "@gasbuddy/composert",
+  "version": "1.0.0",
+  "description": "dead simple cert composition for custom http(s) agents",
+  "main": "index.js",
+  "devDependencies": {
+    "tap": "^7.0.0"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": ["cert", "ca", "agent"],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "ISC"
+}
