@@ -4,7 +4,7 @@
   "description": "dead simple cert composition for custom http(s) agents",
   "main": "index.js",
   "devDependencies": {
-    "tap": "^7.0.0"
+    "tap": "^10.2.1"
   },
   "scripts": {
     "test": "tap test.js"
