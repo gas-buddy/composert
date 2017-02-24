@@ -1,5 +1,7 @@
 # Composert [![wercker status](https://app.wercker.com/status/c3b342d913fc360f95f24ea5aee88ff3/s/master "wercker status")](https://app.wercker.com/project/byKey/c3b342d913fc360f95f24ea5aee88ff3)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gas-buddy/composert.svg)](https://greenkeeper.io/)
+
 Split and concat pem-encoded certs to be supplied as a CA list to an HTTPS agent.
 
 ## API
